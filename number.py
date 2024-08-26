@@ -62,7 +62,7 @@ def number_to_words(number):
             hundreds_digit = chunk // 100
             if hundreds_digit > 0:
                 if hundreds_digit == 1:
-                    words_chunk.append("viens simts")
+                    words_chunk.append("simts")
                 else:
                     words_chunk.append(number_to_text[hundreds_digit] + " simti")
                 chunk %= 100
